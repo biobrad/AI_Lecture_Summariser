@@ -105,7 +105,7 @@ for chunk in chunks:
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system",
-             "content": "You are a helpful research assistant."},
+             "content": "You are a helpful lecture summarizer."},
             {"role": "user", "content": f"Please Summarize this keeping important details: {chunk}"},
         ],)
     text_summary = response["choices"][0]["message"]["content"]
