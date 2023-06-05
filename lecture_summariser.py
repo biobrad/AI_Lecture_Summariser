@@ -1,4 +1,4 @@
-# Required third party packages: whisper
+# Required third party packages: whisper and openai
 # See instructions for setup here: https://github.com/openai/whisper#setup
 #   - You can use the below command to pull the repo and install dependencies, then just put this script in the repo directory:
 #     pip install git+https://github.com/openai/whisper.git
